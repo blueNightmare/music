@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+			<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0,user-scalable=no">
+			<title>ajax实战-音乐播放器</title>
+			<link rel="stylesheet" href="css/index.css">
+				<script src="js/jquery-2.1.3.min.js"></script>
+				<script src="js/index.js"></script>
+		</head>
+		<body>
+			<div id="main">
+				<div id="musicList">
+			    	<div id="listTitle" class="list_title">Music<span class="list_tip"></span></div>
+			        <div id="listContent" class="list_content">
+						<ul id="listContentUl">
+							<!-- <li class="active">
+								<h3 class="title">逆战</h3>
+		                		<p class="name">张杰</p>
+							</li>  -->
+						</ul>
+			        </div>
+			        <div id="listAudio" class="list_audio">
+							<img id="listAudioImg" class="list_audioImg" src="img/music.jpg">
+				            <div id="listAudioText" class="list_audioText">
+				            	<h3 class="title">Live</h3>
+				                <p class="name">音乐播放器</p>
+				            </div>
+			            	<div id="listAudioBtn" class="list_audioBtn
+			           		 "></div>
+			        </div>
+			    </div>
+			    <div id="musicDetails">
+					<div id="detailsTitle" class="details_title">
+						<div id="detailsName" class="details_name"></div>
+						<span class="details_tip"></span>
+					</div>
+					<div id="details" class="details_lyric">
+						<ul id="detailsLyricUl">
+							<!-- <li>红尘客栈</li>
+							<li>红尘客栈</li>
+							<li>红尘客栈</li>
+							<li>红尘客栈</li>
+							<li>红尘客栈</li> -->
+						</ul>
+					</div>
+					<div class="details_audio">
+						<div class="details_audioAll">
+							<div class="details_audioPro">
+			                	<div id="detailsAudioProUp" class="details_audioProUp"></div>
+			                    <div id="detailsAudioProBar" class="details_audioProBar"></div>
+		                	</div>
+		                	<div id="detailsNowTime" class="details_nowTime">00:00</div>
+               			    <div id="detailsAllTime" class="details_allTime">00:00</div>
+               			    <div id="detailsPlay" class="details_play"></div>
+                			<div id="detailsPrev" class="details_prev"></div>
+                			<div id="detailsNext" class="details_next"></div>
+						</div>
+					</div>
+					<ul class="details_btn">
+			        	<li class="active"></li>
+			            <li></li>
+			        </ul>
+			    </div>
+			</div>
+			<audio id="audio1"></audio>
+		</body>
+		</html>
